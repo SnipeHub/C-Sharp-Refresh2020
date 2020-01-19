@@ -1,0 +1,6 @@
+G:\source\repos\C#Refresh2019\VariablesAndDataTypes2\VariablesAndDataTypes2\bin\Debug\VariablesAndDataTypes2.exe.config
+G:\source\repos\C#Refresh2019\VariablesAndDataTypes2\VariablesAndDataTypes2\bin\Debug\VariablesAndDataTypes2.exe
+G:\source\repos\C#Refresh2019\VariablesAndDataTypes2\VariablesAndDataTypes2\bin\Debug\VariablesAndDataTypes2.pdb
+G:\source\repos\C#Refresh2019\VariablesAndDataTypes2\VariablesAndDataTypes2\obj\Debug\VariablesAndDataTypes2.csproj.CoreCompileInputs.cache
+G:\source\repos\C#Refresh2019\VariablesAndDataTypes2\VariablesAndDataTypes2\obj\Debug\VariablesAndDataTypes2.exe
+G:\source\repos\C#Refresh2019\VariablesAndDataTypes2\VariablesAndDataTypes2\obj\Debug\VariablesAndDataTypes2.pdb
