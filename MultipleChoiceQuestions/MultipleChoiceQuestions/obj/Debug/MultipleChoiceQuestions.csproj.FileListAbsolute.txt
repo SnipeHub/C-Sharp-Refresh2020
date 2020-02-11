@@ -5,3 +5,10 @@ G:\source\repos\C#Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\ob
 G:\source\repos\C#Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.csproj.CoreCompileInputs.cache
 G:\source\repos\C#Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.exe
 G:\source\repos\C#Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.pdb
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\bin\Debug\MultipleChoiceQuestions.exe.config
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\bin\Debug\MultipleChoiceQuestions.exe
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\bin\Debug\MultipleChoiceQuestions.pdb
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.csprojAssemblyReference.cache
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.csproj.CoreCompileInputs.cache
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.exe
+G:\source\repos\C-Sharp-Refresh2020\MultipleChoiceQuestions\MultipleChoiceQuestions\obj\Debug\MultipleChoiceQuestions.pdb
