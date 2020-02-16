@@ -10,46 +10,25 @@ namespace MultipleChoiceQuestions
     {
         public static void Main(string[] args)
         {
-            //string Readback;
+            //Readback;
             Console.WriteLine("What is your name? ");
-            var name = Console.ReadLine();
-            name = name.ToLower();
-
-            if (name == "")
-            {
-                NothingEntered();
-                name = Console.ReadLine();
-                name = name.ToLower();
-            }
+            var name = TryAnswer();
 
             Console.WriteLine("How old are you? ");
-            var age = Console.ReadLine();
-
-            if (age == "")
-            {
-                NothingEntered();
-                age = Console.ReadLine();
-            }
+            var age = TryAnswer();
 
             Console.WriteLine("What month were you born in? ");
-            var born = Console.ReadLine();
-            born = born.ToLower();
+            var month = TryAnswer();
+            month = month.ToLower();
 
-            if (born == "")
-            {
-                NothingEntered();
-                born = Console.ReadLine();
-                born = born.ToLower();
-            }
-
-            if (born != "more")
+            if (month != "more")
             {
                 Console.WriteLine("Hint: next time enter 'more' for the month!");
             }
 
             // option output 1
             //entered info output
-            //Readback = $"Your name is {name}, you are {age} years old and you were born in the month of {born}";
+            //Readback = $"Your name is {name}, you are {age} years old and you were month in the month of {month}";
             //Console.WriteLine(Readback);
 
             // Pause screen, prompt for key press to exit
@@ -59,28 +38,28 @@ namespace MultipleChoiceQuestions
             // option output 2
             Console.WriteLine($"Your name is: {name}");
             Console.WriteLine($"Your age is: {age}");
-            //Console.WriteLine($"Your born in: {born}");
+            //Console.WriteLine($"Your month in: {month}");
 
 
-            if (born == "more")
+            if (month == "more")
             {
                 Console.WriteLine("You entered the secret hint!");
             }
-            else if (born != "more")
+            else if (month != "more")
             {
-                Console.WriteLine($"Your born in: {born}");
+                Console.WriteLine($"Your born in: {month}");
             }
 
 
-            if (born == "november")
+            if (month == "november")
             {
                 Console.WriteLine("Your star sign is either a Libra or Ophiuchus");
             }
-            if (born == "december")
+            if (month == "december")
             {
                 Console.WriteLine("You star sign is most likely Ophiuchus or Sagittarius");
             }
-            else if (born == "more")
+            else if (month == "more")
             {
                 Console.WriteLine("Did you know that there are actually 14 constellations?");
             }
@@ -88,9 +67,22 @@ namespace MultipleChoiceQuestions
 
         }
 
-        static void NothingEntered()
+        // changed into a function return
+        // when void is used, there is no return, when a string is used we can do a return
+        /// <summary>
+        /// This return function will tell the user to enter something if nothing is typed in when a question is asked. 
+        /// </summary>
+        /// <returns></returns>
+        static string TryAnswer()
         {
-            Console.WriteLine("You did not enter anything, please try again");
+            var answer = Console.ReadLine();
+
+            if (answer == "")
+            {
+                Console.WriteLine("You did not enter anything, please try again");
+                return Console.ReadLine(); // When a function retuns, it ends, so make sure the return is your last line in the function. Nothing after this will work.
+            }
+            return answer;
         }
     }
 }
