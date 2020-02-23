@@ -28,7 +28,7 @@ namespace StudentTrackerImproved
                 newStudent.Address = Console.ReadLine();
 
                 Console.Write("Student Phone: ");
-                newStudent.SetPhone (int.Parse(Console.ReadLine()));
+                newStudent.Phone = int.Parse(Console.ReadLine());
 
                 students.Add(newStudent);
 
@@ -54,6 +54,13 @@ namespace StudentTrackerImproved
         public string Birthday;
         public string Address;
         private int phone;
+
+        // now we use this instead of the below function
+        // This is making the number private
+        public int Phone
+        {
+            set { phone = value; Console.WriteLine(phone); }
+        }
 
         public void SetPhone(int number)
         {
