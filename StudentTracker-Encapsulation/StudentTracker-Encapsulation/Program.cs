@@ -15,20 +15,15 @@ namespace StudentTrackerImproved
             {
                 var newStudent = new Student();
 
-                Console.Write("Student Name: ");
-                newStudent.Name = Console.ReadLine();
+                newStudent.Name = Util.Console.Ask("Student Name: ");
 
-                Console.Write("Student Grade: ");
-                newStudent.Grade = int.Parse(Console.ReadLine());
+                newStudent.Grade = int.Parse(Util.Console.Ask("Student Grade: "));
 
-                Console.Write("Student Birthday: ");
-                newStudent.Birthday = Console.ReadLine();
+                newStudent.Birthday = Util.Console.Ask("Student Birthday: ");
 
-                Console.Write("Student Address: ");
-                newStudent.Address = Console.ReadLine();
+                newStudent.Address = Util.Console.Ask("Student Address: ");
 
-                Console.Write("Student Phone: ");
-                newStudent.Phone = int.Parse(Console.ReadLine());
+                newStudent.Phone = int.Parse(Util.Console.Ask("Student Phone: "));
 
                 students.Add(newStudent);
                 Student.Count++;
@@ -51,7 +46,7 @@ namespace StudentTrackerImproved
 
     class Student
     {
-        static public int Count;
+        static public int Count = 0;
 
         public string Name;
         public int Grade;
